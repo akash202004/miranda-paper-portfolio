@@ -3,241 +3,383 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Miranda</title>
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="loco.css">
 </head>
 
 <body>
     <div id="main">
         <div id="page1">
             <div id="nav">
-                <h5>Amsterdam, NL</h5>
                 <img src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/5f7f87c8b81a6e7a214312f0_header.svg"
                     alt="">
-                <i class="ri-equal-line"></i>
             </div>
-            <div id="elem">
+            <div id="elems">
                 <div id="elem1">
-                    <div class="img-div">
-                        <img src="https://assets-global.website-files.com/5f9085a4041dd5427c5ac8ae/615d9672cc65f12c9ab25f21_thumbnail-small.jpeg?"
+                    <div id="image-div">
+                        <img src="https://cdn.prod.website-files.com/5f9085a4041dd5427c5ac8ae/621f2de86891ea03211fe874_thumbnail-small.jpeg"
                             alt="">
                     </div>
-                    <h4 class="first-page-h4">AVRO | KO <span class="first-page-span">NEW</span></h4>
-                    <p class="first-page-p">AvroKO is an award-winning global design firm, established itself as a
-                        global leader in interior architecture for hospitality, restaurant and bars. </p>
+                    <h4>OM SWAMI <span>NEW</span></h4>
+                    <p>OM Swami is a spiritual leader, bestselling author and serial entrepreneur who resides in the Himalayan foothills.</p>
                 </div>
                 <div id="elem2">
-                    <h2 class="ecllipse-effect">ALL WORK!</h2>
-                    <h4>A Featured Selection
-                        <br>
-                        the latest work -
-                        <br>
-                        of the last years.
-                    </h4>
-                    <h5><span>TIP!</span>Drag sideway to navigate</h5>
+                    <h3 class = "deep">All Work!</h3>
+                    <h3>A Featured selection <br>the latest work- <br>of the last years.</h3>
+                    <h6>Tip! Drag sideways to navigate</h6>
                 </div>
                 <div id="elem3">
-                    <div class="img-div">
-                        <img src="https://assets-global.website-files.com/5f9085a4041dd5427c5ac8ae/645b5439577bd35377de8c43_thumbnail-small.webp?"
+                    <div id="image-div">
+                        <img src="https://uploads-ssl.webflow.com/5f9085a4041dd5427c5ac8ae/615d9672cc65f12c9ab25f21_thumbnail-small.jpeg?"
                             alt="">
                     </div>
-                    <h4 class="first-page-h4">THE ROGER HUB <span class="first-page-span">NEW</span></h4>
-                    <p class="first-page-p">The Roger Hub is an immersive web experience showcasing the tennis-inspired
-                        'On' sneakers, a collaboration born out of a partnership with the legendary Roger Federer.</p>
+                    <h4>AVRO | KO<span>NEW</span></h4>
+                    <p>AvroKO is an award-winning global design firm, established itself as a global leader in interior architecture for hospitality, restaurant and bars.</p>
                 </div>
+
             </div>
             <h1>MIRANDA</h1>
         </div>
         <div id="page2">
-            <div id="left-page2">
-                <h1>INTERACTIVE <br>
-                    <span>ARTIST!</span>
-                </h1>
-                <img src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/605c6ce3bc0c7d1cd4ca847e_avatar-star-p-800.jpeg"
-                    alt="">
-                <p>As a multidisciplinary freelancer, I'm passionate about creating iconic digital experiences through
-                    motion, typography, and creative coding for companies and agencies around the world.</p>
+            <div id="page2-left">
+                <h2 class = "h-head s-1">Intera<span class="f-span">C</span>tive</h2>
+                <h2 class="h-head sub">Artist!</h2>
+                <img src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/605c6ce3bc0c7d1cd4ca847e_avatar-star-p-800.jpeg" alt="">
+
+                <div class="h-drop left">
+                    <div class="drop-in w-embed">
+                    <style>
+                    .has-dropcap {
+                        font-size: 2.25vw;
+                        line-height: 2.7vw;
+                        text-align: left;
+                    }
+                
+                    .has-dropcap:first-letter {
+                        font-family: "Canopee", sans-serif;
+                        font-feature-settings: "ss03";
+                        float: left;
+                        font-size: 7vw;
+                        line-height: 5vw;
+                        margin: .7vw 1vw 1vw 0vw;
+                        background-color: #1D1D1B;
+                        color: #CDC6BE;
+                        padding: .75vw .4vw .5vw .5vw;
+                
+                    }
+                
+                     @media (max-width: 479px) {
+                        .has-dropcap {
+                            font-size: 6vw;
+                            line-height: 7.5vw;
+                            text-align: left;
+                            letter-spacing: -0.02em;
+                        }
+                
+                        .has-dropcap:first-letter {
+                            font-family: "Canopee", sans-serif;
+                            font-feature-settings: "ss03";
+                            float: left;
+                            font-size: 20vw;
+                            line-height: 17vw;
+                            margin: 1vw 2vw 1vw 0vw;
+                            background-color: #1D1D1B;
+                            color: #CDC6BE;
+                            padding: 1.5vw .8vw .5vw 1vw;
+                
+                        }
+                    }
+                    </style>
+                    <h5 class="has-dropcap">
+                    As a multidisciplinary freelancer, I'm passionate about creating iconic digital experiences through motion, typography, and creative coding for companies and agencies around the world.
+                    </h5>
+                    </div>
+                </div>
             </div>
-            <div id="right-page2">
-                <img src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/605c62f4c78c4ba46a1268be_avatar-1-p-2000.jpeg"
-                    alt="">
-                <h1>DIGITAL ART DIRECTOR</h1>
-                <h1>INTERACTIVE DESIGNER</h1>
-                <h1>CREATIVE DEVELOPER</h1>
-                <h1>BASED IN AMSTERDAM, NL.</h1>
+            <div id="page2-right">
+                <img src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/605c62f4c78c4ba46a1268be_avatar-1-p-2000.jpeg" alt="">
+
+                <div class="L-des">
+                    <h2 class="h-head ex">di<span class="f-span">g</span>ital art dire<span class="f-span">c</span>t<span class="f-span">o</span>r</h2><h2 class="h-head ex">Intera<span class="f-span">c</span>tive Desi<span class="f-span">g</span>ner</h2><h2 class="h-head ex"><span class="f-span">c</span>reative devel<span class="f-span">o</span>per</h2><h2 class="h-head ex">based in <span class="under">Amsterdam, NL</span>.</h2>
+                </div>
             </div>
         </div>
         <div id="page3">
-            <h1>WEBSITE</h1>
-            <img src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/60474834660f934090d42877_stamp.png"
-                alt="">
+            <h1>Website</h1>
+            <img src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/60474834660f934090d42877_stamp.png" alt="">
         </div>
         <div id="page4">
-            <div id="left-page4">
-                <div id="insi">
-                    <div id="insi-left">
-                        <h1>UPCOMING NEXT</h1>
-                        <h2>Fresh entry - A selected <br> work from the latest <br> digital releases.</h2>
-                        <h3><span>TIP!</span>Click on the image to explore</h3>
-                    </div>
-                    <div id="insi-right">
-                        <div class="four-page-img">
-                            <img src="https://assets-global.website-files.com/5f9085a4041dd5427c5ac8ae/645b5c79f349770ebcc28ec4_thumbnail-small.webp?"
-                                alt="">
+            <div id="page4-left">
+                <div class="h-info-w">
+                    <div class="headline set3">
+                        <div href="#" draggable="false" rel="noopener" aria-label="work" class="head-wrap">
+                            <div class="head-title">
+                                Up<span class="dom">co</span>min<span class="dom">g</span> 
+                                Next
+                            </div>
                         </div>
-                        <h1>UNEXPECTED TIME</h1>
-                        <p>Unexpected Time is a classic-furitistic gamification web experience showcasing the lost
-                            history & culture in a world dominated by the virtual reality. </p>
+                        <div class="head-desc left">Fresh entry-A selected<br>work from the latest<br>digital releases.</div>
+                        <div class="head-caption">
+                            <div class="item-title cap">
+                                Tip!
+                                <span class="text-span-2"></span>
+                            </div>
+                            <div class="item-desc cap">
+                                Click on the image to explore
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <img src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/605c679f33f67d3dd00b04b4_avatar-3.jpeg"
-                    class="img-div-page4" alt="">
+                    <div class="h-info-col">
+                        <div class="s-grid w-dyn-list">
+                            <div role="list" class="s-block w-dyn-items">
+                                <div role="listitem" class="item l w-dyn-item">
+                                    <div draggable="false" aria-label="Niccolò Miranda - Work" rel="noopener" class="item-link">
+                                        <div class="item-img-w">
+                                            <div class="item-img w-embed" style="filter: grayscale(0%);">
+                                                <img src="https://cdn.prod.website-files.com/5f9085a4041dd5427c5ac8ae/645b5c79f349770ebcc28ec4_thumbnail-small.webp?" data-image="https://cdn.prod.website-files.com/5f9085a4041dd5427c5ac8ae/645b5c7620c38b339e01b795_thumbnail-big.webp?" crossorigin="anonymous" alt="Unexpected Time is a classic-furitistic gamification web experience showcasing the lost history & culture in a world dominated by the virtual reality. " draggable="false"></div></div>
+                                                
+                                                <div class="item-block">
+                                                 <div class="item-tw">
+                                                    <img loading="eager" draggable="false" src="https://cdn.prod.website-files.com/5f9085a4041dd5427c5ac8ae/645b5d0c227d4a35562c5b85_unexpected-time.svg" alt="A cute hedgehog title of Niccolò Miranda's work" class="item-t">
+                                                    <div class="new-w-2 sp w-condition-invisible">
+                                                        <div class="new-2">New</div>
+                                                    </div>
+                                                </div>
+                                                <div class="item-desc">Unexpected Time is a classic-furitistic gamification web experience showcasing the lost history & culture in a world dominated by the virtual reality. </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="h-inner set3"><img class="h-img set3" src="https://cdn.prod.website-files.com/5f2429f172d117fcee10e819/605c679f33f67d3dd00b04b4_avatar-3.jpeg" alt="Like an artisan, I like to start from raw matter and give life to an iconic product that makes your brand stand out, starting from a Visual Strategy that guide the client’s vision to reality." draggable="false" sizes="100vw" loading="lazy" srcset="https://cdn.prod.website-files.com/5f2429f172d117fcee10e819/605c679f33f67d3dd00b04b4_avatar-3-p-500.jpeg 500w, https://cdn.prod.website-files.com/5f2429f172d117fcee10e819/605c679f33f67d3dd00b04b4_avatar-3-p-1080.jpeg 1080w, https://cdn.prod.website-files.com/5f2429f172d117fcee10e819/605c679f33f67d3dd00b04b4_avatar-3.jpeg 1468w" style="filter: grayscale(0%);"></div>
             </div>
-            <div id="right-page4">
-                <h1>THINK, CREATE <br> <span>DELIVER</span></h1>
-                <p>A strong project is created by deep collaboration. I design, develop, and deliver websites that drive
-                    results and win awards. </p>
-                <p>Like an artisan, I like to start from raw matter and give life to an iconic product that makes your
-                    brand stand out, starting from a Visual Strategy that guide the client’s vision to reality.</p>
-                <div id="rounded">
-                    <img src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/61001a3509319b6ae39e156b_arrow-long.svg"
-                        alt="">
-                    <h1>ALL WORK</h1>
+            <div id="page4-right">
+                <div class="block0"><h2 class="h-head s">Think, <span class="f-span">C</span>reate</h2><h2 class="h-head sub-2">Deliver</h2></div>
+                
+                <div class="h-drop"><div class="drop-in w-embed"><h5 class="has-dropcap">
+                    A strong project is created by deep collaboration. I design, develop, and deliver websites that drive results and win awards. 
+                        </h5></div><h3 class="h5 h3">Like an artisan, I like to start from raw matter and give life to an iconic product that makes your brand stand out, starting from a Visual Strategy that guide the client’s vision to reality.</h3>
+                </div>
+                <div id="anda">
+                    <img src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/61001a3509319b6ae39e156b_arrow-long.svg" alt="">
+                    <h1>All Work</h1>
                 </div>
             </div>
         </div>
-        <div id="page5">
-            <div id="page5-1" class="page5-1">
-                <div class="left-page5">
-                    <h2>SITE OF THE DAY</h2>
-                    <h1>AWARDS</h1>
-                </div>
-                <div class="right-page5">
-                    <h1>9</h1>
-                </div>
-            </div>
-            <div id="page5-2" class="page5-1">
-                <div class="left-page5">
-                    <h2>SITE OF THE MONTH</h2>
-                    <h1>WINNERS</h1>
-                </div>
-                <div class="right-page5">
-                    <h1>1</h1>
-                </div>
-            </div>
-            <div id="page5-3" class="page5-1">
-                <div class="left-page5">
-                    <h2>FWA OF THE DAY</h2>
-                    <h1>AWARDS</h1>
-                </div>
-                <div class="right-page5">
-                    <h1>6</h1>
-                </div>
-            </div>
-            <div id="page5-4" class="page5-1">
-                <div class="left-page5">
-                    <h2 class="prblem">ACCLAIMED</h2>
-                    <h1>MENTIONS</h1>
-                </div>
-                <div class="right-page5">
-                    <h1>8</h1>
-                </div>
-            </div>
-        </div>
-        <div id="page6">
-            <div id="left-pag6">
-                <div id="page6-insi">
-                    <div id="left-insi-page6">
-                        <img src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/605c70e48081716925e9832a_avatar-hat.jpeg" alt="">
-                    </div>
-                    <div id="right-insi-page6">
-                        <h1>THE</h1>
+
+        <div id="w-node-_9ff1cffd-cffd-0729-6163-697540b5254e-ed30bca7" class="h-item awards">
+            <a class="m-row w-inline-block">
+                <div class="m-col">
+                    <div class="m-wrap w-clearfix">
+                        <div class="m-inner">
+                            <h3 class="m-init">Site of the day</h3><h3 class="m-title">Awards</h3>
+                        </div>
+                        <div class="m-numb">9</div>
                     </div>
                 </div>
-                <h2>PIXEL</h2>
-            </div>
-            <div id="right-pag6">
-                <img src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/605c6da4f1f8304440ee2e8c_avatar-2-p-1080.jpeg" alt="">
-            </div>
+                <div class="m-col">
+                    <div class="m-wrap w-clearfix">
+                        <div class="m-inner">
+                            <h3 class="m-init">Site of the month</h3><h3 class="m-title">Winners</h3>
+                        </div>
+                        <div class="m-numb">1</div>
+                    </div>
+                </div>
+                <div class="m-col">
+                    <div class="m-wrap w-clearfix">
+                        <div class="m-inner">
+                            <h3 class="m-init">FWA OF THE DAY</h3>
+                            <h3 class="m-title">Awards</h3>
+                        </div>
+                        <div class="m-numb">6</div>
+                    </div>
+                </div>
+                <div class="m-col">
+                    <div class="m-wrap w-clearfix">
+                        <div class="m-inner">
+                            <h3 class="m-init">acclaimed</h3>
+                            <h3 class="m-title">Menti<span class="f-span space">o</span>ns</h3>
+                        </div>
+                        <div class="m-numb">8</div>
+                    </div>
+                </div>
+            </a>
         </div>
-        <div id="page7">
-            <div id="page7-left">
-                <img src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/605c6fd0f6276ef0c6bacfa4_trophy-p-800.jpeg"
+
+        <div id="w-node-_7cf5bd0b-a880-8576-a1a2-b7f3901a9ed6-ed30bca7" class="h-item aw">
+            <div class="h-row">
+                <div class="h-col half sub2">
+                    <div class="h-inn w-clearfix">
+                        <div class="h-inner set4">
+                            <img src="https://cdn.prod.website-files.com/5f2429f172d117fcee10e819/605c70e48081716925e9832a_avatar-hat.jpeg" loading="lazy" alt="Niccolò Miranda is an award-winning designer & developer who’s passionate about creating iconic digital experiences through motion, typography and creative coding for worldwide brands. " class="h-img set4 blend hat" style="filter: grayscale(0%);">
+                        </div>
+                        <h2 class="m-head s1">The</h2>
+                    </div>
+                    <div class="h-inn sp w-clearfix">
+                        <h2 class="m-head sub">pixel</h2>
+                    </div>
+                </div>
+                <div class="h-col half r">
+                    <div class="h-inner set5 star">
+                        <img class="h-img set5 star" src="https://cdn.prod.website-files.com/5f2429f172d117fcee10e819/605c6da4f1f8304440ee2e8c_avatar-2.jpeg" alt="Niccolò Miranda is an award-winning designer & developer who’s passionate about creating iconic digital experiences through motion, typography and creative coding for worldwide brands. " draggable="false" sizes="(max-width: 479px) 94vw, 49vw" loading="lazy" srcset="https://cdn.prod.website-files.com/5f2429f172d117fcee10e819/605c6da4f1f8304440ee2e8c_avatar-2-p-500.jpeg 500w, https://cdn.prod.website-files.com/5f2429f172d117fcee10e819/605c6da4f1f8304440ee2e8c_avatar-2-p-800.jpeg 800w, https://cdn.prod.website-files.com/5f2429f172d117fcee10e819/605c6da4f1f8304440ee2e8c_avatar-2-p-1080.jpeg 1080w, https://cdn.prod.website-files.com/5f2429f172d117fcee10e819/605c6da4f1f8304440ee2e8c_avatar-2-p-1600.jpeg 1600w, https://cdn.prod.website-files.com/5f2429f172d117fcee10e819/605c6da4f1f8304440ee2e8c_avatar-2.jpeg 1737w" style="filter: grayscale(0%);">
+                    </div>
+                </div>
+            </div>
+            <div class="w-row sp">
+                <div class="h-inner set4">
+                    <img src="https://cdn.prod.website-files.com/5f2429f172d117fcee10e819/605c6fd0f6276ef0c6bacfa4_trophy.jpeg" loading="lazy" alt="A strong project arises from a deep collaboration. I design, develops & delivers website that drive results and win awards. 
+                   " sizes="(max-width: 479px) 129.375px, 27vw" srcset="https://cdn.prod.website-files.com/5f2429f172d117fcee10e819/605c6fd0f6276ef0c6bacfa4_trophy-p-800.jpeg 800w, https://cdn.prod.website-files.com/5f2429f172d117fcee10e819/605c6fd0f6276ef0c6bacfa4_trophy.jpeg 1105w" class="h-img set4 blend award" style="filter: grayscale(0%);">
+                </div>
+                <h2 class="m-head">perfe<span class="m-span">c</span>t</h2>
+            </div>
+            <div class="h-row sp text w-clearfix">
+                <div class="h-block sub w-clearfix">
+                    <h2 class="m-head shape b">artisan</h2>
+                </div>
+                <div class="h-description desktop">
+                    <div class="txt">Over the past 5+ years, I've teamed up with high-profile clients and partners globally earning 
+                        <a href="/about" data-color="#1D1D1B" aria-label="Miranda – Awards & Publications" rel="noopener" draggble="false" class="under">mentions & awards</a>from digital platforms like The FWA,</div>
+                        <a draggable="false" aria-label="awwwards" target="_blank" rel="noopener" href="https://www.awwwards.com/niccolo.miranda" class="block aww w-inline-block"><h2 class="h-head aww">Awwwards</h2></a>
+                        <link rel="prefetch" href="https://www.awwwards.com/niccolo.miranda">
+                    </div>
+                    <div class="h-description mobile">
+                        <div class="txt">Over the past 3+ years, I teamed up with high-profile clients and partners globally earning 
+                            <a href="/about" data-color="#1D1D1B" aria-label="Miranda – Awards & Publications" rel="noopener" draggble="false" class="under">mentions & awards</a> from digital platforms like The FWA, Awwwards, Communication Arts, Site Inspire, Behance, Codrops and many others.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           <div id="w-node-c7a5d98e-e170-5e54-9fc1-0d4305a864b3-ed30bca7" class="h-item r">
+            <div class="aw-block-w">
+                <div data-w-id="3fadac9e-248c-ccc4-f19a-f9a9abc7fc52" class="aw-block s-1" style="transform: translate3d(0vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; background-color: rgb(205, 198, 190);">
+                    <div class="aw-content">
+                        <div class="aw-before s1">
+                            <div class="aw-line"></div>
+                            <div class="aw-line"></div>
+                            <div class="aw-line"></div>
+                            <div class="aw-line"></div>
+                            <div class="aw-line"></div>
+                            <div class="aw-face">
+                                <div class="aw-qa w-embed"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 130 314"><defs></defs>
+                                   <path fill="#000" d="M23.6364 178.549C23.6364 200.538 29.3266 214.611 46.3973 240.557L55.5892 233.961C45.9596 219.008 45.9596 210.213 45.9596 198.779C45.9596 181.188 66.0943 165.356 89.2929 142.048C110.741 120.499 130 96.3109 130 63.7675C130 29.465 102.862 0 64.3434 0C37.2054 0 16.633 10.5546 0 22.8684L10.505 55.4118C19.697 33.423 35.8923 15.3922 59.5286 15.3922C80.101 15.3922 96.2963 27.2661 96.2963 48.3754C96.2963 71.2437 78.3502 84.8768 56.0269 107.745C30.6397 134.571 23.6364 150.843 23.6364 178.549ZM79.2256 289.812L54.7138 265.625L30.202 289.812L54.7138 314L79.2256 289.812Z"></path></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="aw-desc s1">“Blurring the line between design & dev, Niccolo has an umatched eye for detail and precise execution in his work which pushes the whole industry forward”</div>
+                        <div class="aw-infos center h">
+                            <div class="aw-box"><img loading="lazy" alt="" src="https://cdn.prod.website-files.com/5f2429f172d117fcee10e819/6172987a792f18104ce0ce14_sam-day.jpg" class="aw-thumb"></div>
+                            <div class="aw-info"><h3 class="aw-name">Sam Day</h3>
+                            <div class="aw-role">Creative Director &amp;&nbsp;Designer<a href="#" class="link"></a></div>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="aw-inner w-embed"><style>.dash {width: 100%; height: 100%; /* dashed border */ background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='8' ry='8' stroke='%23333' stroke-width='2.5' stroke-dasharray='11%2c11' stroke-dashoffset='30' stroke-linecap='square'/%3e%3c/svg%3e");}</style>
+  
+                            <div class="dash"></div>
+                        </div>
+                    </div>
+                    <div data-w-id="bd11d9d3-1f38-30c7-f551-269d5b645351" class="aw-block s-2" style="transform: translate3d(-22vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+                    transform-style: preserve-3d;
+                    background-color: rgb(205, 198, 190);">
+                        <div class="aw-content">
+                            <div class="aw-before s2">
+                                <div class="aw-line"></div>
+                                <div class="aw-line"></div>
+                                <div class="aw-line"></div>
+                                <div class="aw-line"></div>
+                                <div class="aw-line"></div>
+                                <div class="aw-face">
+                                    <div class="aw-qa w-embed"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 130 314"><defs></defs>
+                                    <path fill="#000" d="M23.6364 178.549C23.6364 200.538 29.3266 214.611 46.3973 240.557L55.5892 233.961C45.9596 219.008 45.9596 210.213 45.9596 198.779C45.9596 181.188 66.0943 165.356 89.2929 142.048C110.741 120.499 130 96.3109 130 63.7675C130 29.465 102.862 0 64.3434 0C37.2054 0 16.633 10.5546 0 22.8684L10.505 55.4118C19.697 33.423 35.8923 15.3922 59.5286 15.3922C80.101 15.3922 96.2963 27.2661 96.2963 48.3754C96.2963 71.2437 78.3502 84.8768 56.0269 107.745C30.6397 134.571 23.6364 150.843 23.6364 178.549ZM79.2256 289.812L54.7138 265.625L30.202 289.812L54.7138 314L79.2256 289.812Z"></path>
+                                    </svg></div>
+                                    </div>
+                                    </div>
+                                    <div class="aw-desc s2">"Niccolò‘s eye for detail &amp; design as well as his impeccable aesthetics, make him one of the leaders in today’s digital design scene"</div>
+                                    <div class="aw-infos center h">
+                                        <div class="aw-box"><img loading="lazy" alt="" src="https://cdn.prod.website-files.com/5f2429f172d117fcee10e819/615b54ee54045a4769f04eba_sofia-papadopoulou.jpg" class="aw-thumb"></div>
+                                        <div class="aw-info"><h3 class="aw-name">S<span class="f-span space">o</span>fia Papad<span class="f-span space">o</span>p<span class="f-span space">o</span>ul<span class="f-span space">o</span>u</h3>
+                                        <div class="aw-role">Designer &amp;&nbsp;Art Director</div>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class="aw-inner w-embed"><style> .dash { width: 100%; height: 100%; /* dashed border */ background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='8' ry='8' stroke='%23333' stroke-width='2.5' stroke-dasharray='11%2c11' stroke-dashoffset='30' stroke-linecap='square'/%3e%3c/svg%3e");border-radius: .5vw;} </style>
+  
+                                    <div class="dash"></div></div></div><div data-w-id="66416161-20e0-82bc-15a2-33062ba7c6d0" class="aw-block s-3" style="transform: translate3d(-43vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+                                    transform-style: preserve-3d;
+                                    background-color: rgb(205, 198, 190);"><div class="aw-content"><div class="aw-desc s3">"High-skilled designer who creates novel experiences with ease and craft. His signature is more vivid on each new project he launches and this is only the start"</div><div class="aw-infos center h"><div class="aw-box"><img loading="lazy" alt="" src="https://cdn.prod.website-files.com/5f2429f172d117fcee10e819/615b54ee0df682e04e089676_bruno-arizio.jpg" class="aw-thumb"></div><div class="aw-info"><h3 class="aw-name">Brun<span class="f-span space">o</span> Arizi<span class="f-span space">o</span></h3><div class="aw-role">Creative&nbsp;Director at <a href="https://brunoarizio.com/" aria-label="Bruno Arizio" rel="noopener" target="_blank" draggable="false" class="link new-tab">Studio&nbsp;BA</a><link rel="prefetch" href="https://brunoarizio.com/"></div></div></div></div><div class="aw-inner w-embed"><style>
+      .dash {
+          width: 100%;
+          height: 100%;
+          /* dashed border */
+          background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='8' ry='8' stroke='%23333' stroke-width='2.5' stroke-dasharray='11%2c11' stroke-dashoffset='30' stroke-linecap='square'/%3e%3c/svg%3e");
+          pointer-events: none; 
+      }
+      .aw-inner {
+          pointer-events: none; 
+      }
+      
+    
+     </style>
+  
+     <div class="dash"></div></div></div><div data-w-id="7721f517-f1c7-aa27-99c8-ce4315523ae0" class="aw-block s-4" style="transform: translate3d(-65vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+     transform-style: preserve-3d;
+     background-color: rgb(205, 198, 190);"><div class="aw-content"><div class="aw-before s4"><div class="aw-line"></div><div class="aw-line"></div><div class="aw-line"></div><div class="aw-line"></div><div class="aw-line"></div><div class="aw-face"><div class="aw-qa w-embed"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 130 314">
+     <defs></defs>
+     <path fill="#000" d="M23.6364 178.549C23.6364 200.538 29.3266 214.611 46.3973 240.557L55.5892 233.961C45.9596 219.008 45.9596 210.213 45.9596 198.779C45.9596 181.188 66.0943 165.356 89.2929 142.048C110.741 120.499 130 96.3109 130 63.7675C130 29.465 102.862 0 64.3434 0C37.2054 0 16.633 10.5546 0 22.8684L10.505 55.4118C19.697 33.423 35.8923 15.3922 59.5286 15.3922C80.101 15.3922 96.2963 27.2661 96.2963 48.3754C96.2963 71.2437 78.3502 84.8768 56.0269 107.745C30.6397 134.571 23.6364 150.843 23.6364 178.549ZM79.2256 289.812L54.7138 265.625L30.202 289.812L54.7138 314L79.2256 289.812Z"></path>
+     </svg></div></div></div><div class="aw-desc s4">"A very promising Creative Director and Interactive Designer given his natural aesthetic taste and innate instinct for functionality"</div><div class="aw-infos center h"><div class="aw-box"><img loading="lazy" alt="" src="https://cdn.prod.website-files.com/5f2429f172d117fcee10e819/615b54ee9805af64275d2b44_enea-rossi.jpg" class="aw-thumb"></div><div class="aw-info"><h3 class="aw-name">Enea R<span class="f-span">o</span>ssi</h3><div class="aw-role">Co-Founder at <a href="https://adoratorio.studio/" draggable="false" aria-label="Enea Rossi&nbsp;– Adoratorio" rel="noopener" target="_blank" class="link new-tab">Adoratorio</a><link rel="prerender" href="https://adoratorio.studio/"></div></div></div></div><div class="aw-inner w-embed"><style>
+     .dash {
+     width: 100%;
+     height: 100%;
+     /* dashed border */
+     background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='8' ry='8' stroke='%23333' stroke-width='2.5' stroke-dasharray='11%2c11' stroke-dashoffset='30' stroke-linecap='square'/%3e%3c/svg%3e");
+     }
+     </style>
+  
+     <div class="dash"></div></div></div></div></div>
+
+        
+     <div id="elems">
+        <div id="elem1">
+            <div id="image-div">
+                <img src="https://cdn.prod.website-files.com/5f9085a4041dd5427c5ac8ae/647dc0777b1a5df29f8e5a58_thumbnail-small.webp?" data-image="https://cdn.prod.website-files.com/5f9085a4041dd5427c5ac8ae/647dc0753912d7cfbd50fe17_thumbnail-big.webp?" crossorigin="anonymous" alt="WOW Concept is a the world’s first concept store based in Madrid revolutionizing retail with a dynamic &amp; interactive shopping experience." draggable="false">
+            </div>
+            <h4>WOW CONCEPT <span>NEW</span></h4>
+            <p>WOW Concept is a the world’s first concept store based in Madrid revolutionizing retail with a dynamic &amp; interactive shopping experience.</p>
+        </div>
+        <div id="elem2">
+            <h3 class = "deep">All Work!</h3>
+            <h3>Handpicked hightlights- <br>spanning the last few years.</h3>
+            <h6>Tip! Click on the sides to explore</h6>
+        </div>
+        <div id="elem3">
+            <div id="image-div">
+                <img src="https://uploads-ssl.webflow.com/5f9085a4041dd5427c5ac8ae/645b5439577bd35377de8c43_thumbnail-small.webp?"
                     alt="">
             </div>
-            <div id="page7-right">
-                <h1>PERFECT</h1>
-            </div>
-        </div>
-        <div id="page8">
-            <div id="page8-left">
-                <h1>ARTISAN</h1>
-            </div>
-            <div id="page8-right">
-                <p>Over the past 5+ years, I've teamed up with high-profile clients and partners globally earning
-                    mentions & awards from the digital platform like The FWA,</p>
-                <h2>AWWWARDS</h2>
-                <p>Communication Arts, Site Inspire, Behance, Codrops and many others.</p>
-            </div>
-        </div>
-        <div id="page9">
-            <div id="elem1">
-                <div class="img-div">
-                    <img src="https://assets-global.website-files.com/5f9085a4041dd5427c5ac8ae/615d9672cc65f12c9ab25f21_thumbnail-small.jpeg?"
-                        alt="">
-                </div>
-                <h4 class="first-page-h4">AVRO | KO <span class="first-page-span">NEW</span></h4>
-                <p class="first-page-p">AvroKO is an award-winning global design firm, established itself as a
-                    global leader in interior architecture for hospitality, restaurant and bars. </p>
-            </div>
-            <div id="elem2">
-                <h2 class="ecllipse-effect">ALL WORK!</h2>
-                <h4>Handpicked highlights -
-                    <br>
-                    sapnning the last few
-                    <br>
-                    years.
-                </h4>
-                <h5><span>TIP!</span>Drag sideway to explore</h5>
-            </div>
-            <div id="elem3">
-                <div class="img-div">
-                    <img src="https://assets-global.website-files.com/5f9085a4041dd5427c5ac8ae/647dc0777b1a5df29f8e5a58_thumbnail-small.webp?"
-                        alt="">
-                </div>
-                <h4 class="first-page-h4">WOW CONCEPT <span class="first-page-span">NEW</span></h4>
-                <p class="first-page-p">WOW Concept is a the world’s first concept store based in Madrid revolutionizing retail with a dynamic interactive shopping experience.</p>
-            </div>
-        </div>
-        <div id="page10">
-            <h1>Lets create something together <span>EMAIL ME</span></h1>
-            <h1>Lets create something together <span>EMAIL ME</span></h1>
-            <h1>Lets create something together <span>EMAIL ME</span></h1>
-        </div>
-        <div id="footer">
-            <div id="left-foot">
-                <h1>MIRANDA&copy;</h1>
-                <img src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/60474834660f934090d42877_stamp.png"
-                    alt="">
-                <h1>Legal</h1>
-            </div>
-            <div id="right-foot">
-                <h1>TWITER</h1>
-                <i class="ri-circle-fill"></i>
-                <h1>INSTAGRAM</h1>
-                <i class="ri-circle-fill"></i>
-                <h1>DRIBBLE</h1>
-                <i class="ri-circle-fill"></i>
-                <h2>BEHANCE</h2>
-            </div>
+            <h4>The roger hub  <span>NEW</span></h4>
+            <p>The Roger Hub is an immersive web experience showcasing the tennis-inspired 'On' sneakers, a collaboration born out of a partnership with the legendary Roger Federer.</p>
         </div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+        <div id="page5">
+            <h1>Let's create something together <span>Email me</span></h1>
+            <h1>Let's create something together <span>Email me</span></h1>
+            <h1>Let's create something together <span>Email me</span></h1>
+
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"
+        integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="main.js"></script>
 </body>
 
